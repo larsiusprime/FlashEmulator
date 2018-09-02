@@ -1,4 +1,4 @@
-# GlimmerEmulator
+# FlashEmulator
 A proposal for a true "Flash Emulator"
 
 Once upon a time, nearly all "rich internet applications" and web games were written in Flash. Today, most web browsers block Flash content by default, if they even feature a Flash plugin at all. Some Flash content (including what were once quite popular games) is already lost and gone forever. We have a race against time to preserve what's left, but we have a terrible dilemma in that we don't have a reliable Flash player that we can count on standing the test of time.
