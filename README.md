@@ -7,6 +7,8 @@ There's the existing Flash player binaries, but with Adobe sunsetting Flash in g
 
 As of this writing, there exists no complete, "Flash Emulator" that supports arbitrary SWF playback with sufficient accuracy and performance. There do exist several incomplete and/or abandoned projects, namely Mozilla's Shumway, as well as the Lightspark project. However, there *do* exist a wide variety of open source projects that have solved nearly every problem necessary to build the sort of true "Flash Emulator" we want.
 
+I propose we take the best from each and make a true Flash Emulator.
+
 # Prior attempts
 
 Here is a list of previous attempts to create a *replacement Flash player*
