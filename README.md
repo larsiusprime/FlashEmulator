@@ -9,6 +9,10 @@ As of this writing, there exists no complete, "Flash Emulator" that supports arb
 
 I propose we take the best from each and make a true Flash Emulator.
 
+# TL;DR --
+
+We should use LIME/OpenFL for SWF parsing and rendering, and pair it with Adobe's open-sourced AVMPlus for action script bytecode execution. (I am also quite open to hearing alternatives)
+
 # Prior attempts
 
 Here is a list of previous attempts to create a *replacement Flash player*
