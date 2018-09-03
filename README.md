@@ -104,8 +104,8 @@ The basis for the "player" itself would thus be a Haxe/Lime/OpenFL application. 
 
 Adobe has open sourced the Action Script Virtual machine that they used in the Flash player and Adobe AIR, it can be found here:
 
-[AVMPlus](https://github.com/adobe/avmplus) -- 2016, this version looks to be the most recent
-[AVMPlus](https://github.com/adobe-flash/avmplus) -- 2013, this looks a bit older
+[AVMPlus](https://github.com/adobe/avmplus) -- 2016, this version looks to be the most recent  
+[AVMPlus](https://github.com/adobe-flash/avmplus) -- 2013, this looks a bit older  
 [Tamarin](https://developer.mozilla.org/en-US/docs/Archive/Mozilla/Tamarin/Tamarin_Build_Documentation) -- the AVM used to be called Tamarin, and apparently was donated to Mozilla at some point? 
 
 AVMPlus is written (mostly) in C++ and is our best bet for ensuring bug-for-bug compatibility with the Flash Player in terms of actionscript execution. It's a big, daunting project, but there's no reason it can't in principle be coupled to another C++ app (such as our OpenFL app, compiled for C++ target).
