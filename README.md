@@ -1,7 +1,7 @@
 # FlashEmulator
 A proposal for a true "Flash Emulator"
 
-Once upon a time, nearly all "rich internet applications" and web games were written in Flash. Today, most web browsers block Flash content by default, if they even feature a Flash plugin at all. Some Flash content (including what were once quite popular games) is already lost and gone forever. We have a race against time to preserve what's left, but we have a terrible dilemma in that we don't have a reliable Flash player that we can count on standing the test of time.
+Once upon a time, nearly all "rich internet applications" and web games were written in Flash. Today, most web browsers block Flash content by default, if they even feature a Flash plugin at all. Some Flash content is already lost forever -- including stuff that was quite popular in its day. We must rush to preserve what's left, but we don't even have a reliable open source Flash player that we can count on standing the test of time.
 
 There's the existing Flash player binaries, but with Adobe sunsetting Flash in general there is no guarantee that the Flash player will continue to work reliably into the future, even on desktop targets, and it is already persona-non-grata on all major web browsers.
 
