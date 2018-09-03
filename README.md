@@ -40,7 +40,7 @@ I argue that we want a *native* emulator, that is also a *true emulator*, for va
 By Native we mean C/C++. The reasons are as follows:
 
 - Performance
-  - Part of the project spec is an actionscript VM, so it's better not to write a VM inside a VM. IIRC, Shumway (an attempted JS-first "Flash emulator") there were some significant performance issues.
+  - Part of the project spec is an actionscript VM, so it's better not to write a VM inside a VM. IIRC, Shumway had notable performance issues trying to write an Actionscript VM in Javascript.
 - Portability/Compatibility/Future-proofing
   - Being a web-first app puts us entirely at the mercy of web browsers. For instance, Google's been messing with the HTML5 audio API's on chrome, and Apple's Safari has become the new Internet Explorer, intentionally lagging way behind in updates and standards.
 - Actionscript execution
