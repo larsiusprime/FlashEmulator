@@ -134,6 +134,10 @@ Yes, according to Joshua Granick (OpenFL maintainer). There are two ingestion mo
 
 OpenFL's SWF ingestion will expose frame labels; it currently does not "support" frame scripts, though the parser is certainly able to see the ABC for them (as well as the regular ABC logic from compiled .as files) -- it just doesn't do anything with them right now because OpenFL is not natively connected to an ABC interpreter/VM.
 
+## Other Questions
+
+- Raise questions in issues or ping me on twitter and I'll try to post answers to them here.
+
 # Architecture
 
 1. Modular ?
