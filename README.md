@@ -75,7 +75,7 @@ And here's what we need to make it *good*:
 5. A system to manage disparate versions of actionscript and SWF format, simulate a server & filesystem, workaround sitelocks, etc.
 6. A robust set of accuracy tests.
 
-Fortunately for us, all of the maor components we need already exist in complete or nearly complete form.
+Fortunately for us, all of the major components we need already exist in complete or nearly complete form.
 
 ## OpenFL for SWF format / SWF rendering
 
