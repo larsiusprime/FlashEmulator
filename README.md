@@ -138,6 +138,10 @@ OpenFL's SWF ingestion will expose frame labels; it currently does not "support"
 
 - Raise questions in issues or ping me on twitter and I'll try to post answers to them here.
 
+# Security
+
+TODO
+
 # Architecture
 
 1. Modular ?
