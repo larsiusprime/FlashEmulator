@@ -129,4 +129,10 @@ But all the pieces exist.
 - [] Blah
 - [] TODO
   
-TODO: ~~Draw the rest of the owl~~ Write the rest of the spec.
+##TODO:
+
+- [] Feedback
+- [] Roadmap
+- [] Technical blah
+- [] Questions that need answers before proceeding
+- [] ~~Draw the rest of the owl~~ Write the rest of the spec.
