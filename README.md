@@ -122,7 +122,34 @@ Obviously, plenty of research will be required to work out the details -- when a
 
 But all the pieces exist.
 
+# Questions and Answers
+
+## OpenFL
+
+1. Does OpenFL provide runtime access to SWF content?
+
+Yes, according to Joshua Granick (OpenFL maintainer). There are two ingestion modes -- SWF, and SWFLite, the latter being a preprocessor that transforms the content into an intermediate format that's easier/faster to render (the "lite" part of the name is somewhat a misnomer). SWF mode lets you ingest a SWF at runtime without relying on an intermediate format. Technically, any parser/interpreter has to create an "intermediate format" for its own internal memory representation, so with proper tweaks even SWFLite could be used to drive rendering, but for our purposes here we would definitely not want to transform the original content, save it to disk as the "final product" and call it a day -- the goal is to run content from source and display it accurately.
+
+2. Does OpenFL support frame scripts and frame labels?
+
+OpenFL's SWF ingestion will expose frame labels; it currently does not "support" frame scripts, though the parser is certainly able to see the ABC for them (as well as the regular ABC logic from compiled .as files) -- it just doesn't do anything with them right now because OpenFL is not natively connected to an ABC interpreter/VM.
+
+# Architecture
+
+1. Modular ?
+
+2. Swappable cores ?
+
+3. Frontend with loads of settings for sitelock workarounds / core settings / etc ?
+
+TODO 
+
+# Other Stuff
+
 ## Alternatives
+
+- Tyler Glaiel's magic flash rendering thingy, if he wants to open it up.
+- The Behemoth's magic sauce, if they want to open it up.
 
 - [] Blah
 - [] Blah
