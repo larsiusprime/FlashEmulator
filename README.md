@@ -92,7 +92,7 @@ You can also use SWF content in OpenFL apps, for all targets, not just Flash tar
 
 It should be noted that OpenFL, as currently used, is not attempting to directly perform the role of an "Open Source Flash Player." It does, however, contain many key technologies that could help build such a thing.
 
-The basis for the "player" itself would thus be a Haxe/Lime/OpenFL application. A simple OpenFL app already has the ability to process and display SWF content, but crucially it lacks the ability to execute the SWF's ActionScript Byte Code (ABC hereafter).
+The basis for the "player" itself would thus be a Haxe/Lime/OpenFL application. Right out of the box, a blank OpenFL project has the ability to process and render SWF content at a high degree of accuracy, but crucially it lacks the ability to execute the SWF's ActionScript Byte Code (ABC hereafter).
 
 ## AVMPlus for ABC execution
 
@@ -109,7 +109,8 @@ AVMPlus is written (mostly) in C++ and is our best bet for ensuring bug-for-bug 
 1. Build a native (C++) OpenFL app as the overall "container"
 2. Provide a simple frontend for loading SWF content at runtime
 3. Parse the SWF content, extract all library symbol references, frame scripts, ABC, etc.
-4. Invoke the AVM, bootstrap the ABC program insertion point, and begin execution
+4. Invoke the AVM, bootstrap the ABC, find the source flash app's insertion point, and begin execution
+5. Compare vs. Adobe's flash player, note inaccuracies, fix bugs, lather, rinse, repeat until good.
 
 Obviously, plenty of research will be required to work out the details -- when and how the internal AVM will need to call out to the container app to move objects around, all the fiddly details surrounding preloading and load timings, audio encodings, fonts, etc.
 
@@ -120,5 +121,6 @@ But all the pieces exist.
 - [] Blah
 - [] Blah
 - [] Blah
+- [] TODO
   
 TODO: ~~Draw the rest of the owl~~ Write the rest of the spec.
