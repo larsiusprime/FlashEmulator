@@ -52,7 +52,7 @@ By Native we mean C/C++ or something that can painlessly call C/C++ libraries. T
 - Actionscript execution
   - Our best choice for actionscript execution (AVMPlus) is written primarily in C++. If we go with HTML5 we're probably going to have to write our own VM and endure the long slog towards bug-for-bug-compatibility.
 - Webassembly and Emscripten exist
-  - Native first + Wasm/Emscripten->HTML5 is a better pair of final products than HTML5 first + Electron->"Native".
+  - (Native app) + (Wasm/Emscripten HTML5 app) is a better pair of final products than (HTML5 app) + (Electron app).
 
 ## True emulator
 
