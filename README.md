@@ -48,7 +48,7 @@ By Native we mean C/C++ or something that can painlessly call C/C++ libraries. T
 - Performance
   - Part of the project spec is an actionscript VM, so it's better not to write a VM inside a VM. IIRC, Shumway had notable performance issues trying to write an Actionscript VM in Javascript.
 - Portability/Compatibility/Future-proofing
-  - Being a web-first app puts us entirely at the mercy of web browsers. For instance, Google's been messing with the HTML5 audio API's on chrome, and Apple's Safari has become the new Internet Explorer, intentionally lagging way behind in updates and standards.
+  - Being a web-first app puts us entirely at the mercy of web browsers. For instance, Google's been messing with the HTML5 audio API's on chrome, and Apple's Safari has become the new Internet Explorer, intentionally lagging way behind in updates and standards. The whole point of this project is to preserve Flash content threatened by the "Death of Flash".
 - Actionscript execution
   - Our best choice for actionscript execution (AVMPlus) is an already existing VM, written primarily in C++. If we go with HTML5 we're going to have to write our own VM and endure the long slog towards bug-for-bug-compatibility.
 - Webassembly and Emscripten exist
