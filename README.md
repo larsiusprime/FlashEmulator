@@ -43,7 +43,7 @@ I argue that we want a *native* emulator, that is also a *true emulator*, for va
 
 ## Native
 
-By Native we mean C/C++ or something that can painless call C/C++ libraries. The reasons are as follows:
+By Native we mean C/C++ or something that can painlessly call C/C++ libraries. The reasons are as follows:
 
 - Performance
   - Part of the project spec is an actionscript VM, so it's better not to write a VM inside a VM. IIRC, Shumway had notable performance issues trying to write an Actionscript VM in Javascript.
