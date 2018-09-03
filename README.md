@@ -43,14 +43,14 @@ I argue that we want a *native* emulator, that is also a *true emulator*, for va
 
 ## Native
 
-By Native we mean C/C++. The reasons are as follows:
+By Native we mean C/C++ or something that can painless call C/C++ libraries. The reasons are as follows:
 
 - Performance
   - Part of the project spec is an actionscript VM, so it's better not to write a VM inside a VM. IIRC, Shumway had notable performance issues trying to write an Actionscript VM in Javascript.
 - Portability/Compatibility/Future-proofing
   - Being a web-first app puts us entirely at the mercy of web browsers. For instance, Google's been messing with the HTML5 audio API's on chrome, and Apple's Safari has become the new Internet Explorer, intentionally lagging way behind in updates and standards.
 - Actionscript execution
-  - Our best choice for actionscript execution is an already existing VM, written primarily in C++. If we go with HTML5 we're going to have to write our own VM and endure the long slog towards bug-for-bug-compatibility
+  - Our best choice for actionscript execution (AVMPlus) is an already existing VM, written primarily in C++. If we go with HTML5 we're going to have to write our own VM and endure the long slog towards bug-for-bug-compatibility.
 - Webassembly and Emscripten exist
   - Native first + Wasm/Emscripten->HTML5 is a better pair of final products than HTML5 first + Electron->"Native".
 
