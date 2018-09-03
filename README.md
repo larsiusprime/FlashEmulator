@@ -59,7 +59,7 @@ Anyways, the reasons we want an "emulator" instead of a preprocessor are as foll
 - Less error prone
   - Transpiling adds all sorts of opportunities for subtle and difficult to fix bugs, not only because of mismatches between what Actionscript can do and whatever the target format can do, but also because of subtle errors in the transpiler itself. With a simple "player" we can always count on the interpreted source file being 'correct' by definition as it's the natural source of ground truth. With a transformed payload, we'll be constantly chasing down whether the accuracy bug was a mistake in the transpilation pipeline, or in the target format runner's playback.
 - Don't over-complicate things
-  - A transformation step kicks the responsibility of faithful rendering and execution to the target platform, and introduces external dependencies and complexities to the project. It's more complicated to maintain and harder for end users to use.
+  - A transformation step kicks the responsibility of faithful rendering and execution to the target platform, and introduces long-lived external dependencies and complexities to the project. It's more complicated to maintain and harder for end users to use.
 
 # How will we build it?
 
